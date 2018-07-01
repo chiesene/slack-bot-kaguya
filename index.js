@@ -72,7 +72,7 @@ controller.hears('かぐや',['ambient'],function(bot,message) {
  controller.hears('会長',['ambient'],function(bot,message) {
    bot.reply(message,'あら、会長');
  });
- controller.hears(['藤原', 'ふじわら', 'フジワラ'],['ambient'],function(bot,message) {
+ controller.hears(['藤原', 'ふじわら', 'フジワラ', '書記'],['ambient'],function(bot,message) {
    bot.reply(message,'そうやって私が欲しいものを全て奪っていくんですね');
  });
  controller.hears('はーさか',['ambient'],function(bot,message) {
